@@ -2,17 +2,16 @@
   "schemaVersion": 1,
   "id": "cooldowndisplay",
   "version": "${version}",
+
   "name": "Cooldown Display",
-  "description": "Display Cooldown",
+  "description": "Discription",
   "authors": [
     "tildejustin"
   ],
-  "contact": {
-    "homepage": "https://legacyfabric.net/",
-    "sources": "https://github.com/Legacy-Fabric/fabric-example-mod"
-  },
+
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+
+
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -22,11 +21,12 @@
   "mixins": [
     "cooldowndisplay.mixins.json"
   ],
+
   "depends": {
-    "fabricloader": ">=0.14.13",
-    "minecraft": "1.3.2"
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.16.x"
   },
   "suggests": {
-    "another-mod": "*"
+    "flamingo": "*"
   }
 }

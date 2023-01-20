@@ -6,6 +6,6 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 
 @Mixin(ClientPlayerInteractionManager.class)
 public interface ClientPlayerInteractionManagerMixin {
-	@Accessor
-	int getBlockBreakingCooldown();
+    @Accessor
+    int getBlockBreakingCooldown();
 }

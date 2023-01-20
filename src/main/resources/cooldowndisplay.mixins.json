@@ -2,12 +2,13 @@
   "required": true,
   "minVersion": "0.8",
   "package": "xyz.tildejustin.cooldowndisplay.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "ClientPlayerInteractionManagerMixin",
+    "GameMenuScreenMixin",
+    "DebugHudMixin"
   ],
   "client": [
-    "ClientPlayerInteractionManagerMixin",
-    "InGameHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
